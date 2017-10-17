@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/primeiro_valor"
+        />
+
+    <EditText
+        android:id="@+id/edtPrimeroValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/segundo_valor"
+        android:paddingTop="16dp"/>
+
+    <EditText
+        android:id="@+id/edtSegundoValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spOperacao"
+            android:layout_width="221dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/ivOperador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_nulo" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="#2b78e4"
+        android:drawablePadding="-25dp"
+        android:drawableLeft="@drawable/ic_calculadora_button"
+        android:text="Calcular"
+        android:textColor="#fff"
+         />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="30sp" />
+
+</LinearLayout>

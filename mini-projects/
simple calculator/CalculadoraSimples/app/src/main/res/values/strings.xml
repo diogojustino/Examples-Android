@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculadora Simples</string>
+    <string name="primeiro_valor">Primeiro Valor</string>
+    <string name="segundo_valor">Segundo Valor</string>
+
+
+    <string-array name="array_operacoes">
+        <item>ESCOLHA</item>
+        <item>SOMA</item>
+        <item>SUBTRAÇÃO</item>
+        <item>MULTIPLICAÇÃO</item>
+        <item>DIVISÃO</item>
+    </string-array>
+</resources>
